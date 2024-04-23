@@ -1,0 +1,12 @@
+{
+    "name": "my-node-app",
+    "version": "1.0.0",
+    "description": "Node.js app with custom index.html",
+    "main": "index.html",
+    "scripts": {
+      "start": "node index.html"
+    },
+    "author": "Author",
+    "license": "example"
+  }
+  

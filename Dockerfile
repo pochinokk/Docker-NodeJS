@@ -1,7 +1,7 @@
-FROM node:14-alpine
-WORKDIR /app
+FFROM node:latest
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
+COPY index.html .
+EXPOSE 8080
+CMD [ "node", "index.html" ]
